@@ -817,6 +817,63 @@ header h1 a img {
 .about-section .grid_12 .ta__center .grid_4 i {
     padding: 15px;
 }
+
+.services-section .content-6 .row .grid_12 table th {
+    vertical-align: top;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    background: #252525;
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+
+table{
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.rtecenter {
+    text-align: center;
+}
+
+.services-section .content-6 .row .grid_12 table tbody tr td {
+    vertical-align: top;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.services-section .content-6 .row .grid_12 table tbody tr .rtecenter  {
+   text-align: center;
+}
+
+
+.services-section .content-6 .row .grid_12 table tbody tr td p{
+   color: #2a68af;
+
+}
+
+.services-section .content-6 .row .grid_12 .ta__center h4 {
+    font-size: 28px;
+    color: #615f5f;
+    padding: 30px;
+}
+
+.services-section .grid_12 .ta__center .grid_4 i {
+    padding: 15px;
+}
+
+.services-section .content-6 .row .grid_12 .ta__center {
+    padding-bottom: 20px;
+}
+
+.services-section .content-2 {
+    padding-top: 30px;
+}
+
 /*======================= i {
     
     }===========RESPONSIVE LAYOUTS===============================================*/
