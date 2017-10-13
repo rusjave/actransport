@@ -212,7 +212,7 @@ a:hover {
 }
 
 .page1 .btn {
-    margin-top: 41px;  
+    margin-top: 41px;
 }
 
 
@@ -317,7 +317,7 @@ header h1 a {
     display: inline-block;
     overflow: hidden;
     font-size: 0;
-    line-height: 0;    
+    line-height: 0;
     text-indent: -999px;
     transition: 0s ease;
     -o-transition: 0s ease;
@@ -401,7 +401,7 @@ header h1 a img {
 .circle div {
     background-color: #000;
     opacity: 0;
-    border-radius: 500px;    
+    border-radius: 500px;
     z-index: 1;
     position: absolute;
     width: 100%;
@@ -790,7 +790,7 @@ header h1 a img {
     border: none;
     text-indent: -999px;
     z-index: 20;
-    background: url(../images/totop.png) no-repeat left 0; 
+    background: url(../images/totop.png) no-repeat left 0;
     transition: 0s ease;
     -o-transition: 0s ease;
     -webkit-transition: 0s ease;
@@ -817,8 +817,20 @@ header h1 a img {
 .about-section .grid_12 .ta__center .grid_4 i {
     padding: 15px;
 }
+.services-section .content .content-6 .row .grid_12 .ta__center .flash{
+  animation-name: flash;
+      animation-duration: 0.2s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-play-state: running;
+}
 
-.services-section .content-6 .row .grid_12 table th {
+@keyframes flash {
+    from {color: red;}
+    to {color: black;}
+}
+.services-section .content .content-6 .row .grid_12 table th {
     vertical-align: top;
     padding: 10px 20px;
     text-align: left;
@@ -839,20 +851,36 @@ table{
 .rtecenter {
     text-align: center;
 }
-
+.services-section .content .content-5 .row  .grid_12 {
+  padding-top: 77px;
+}
+.services-section .content-6 .row .grid_12 table tbody tr{
+  vertical-align: top;
+  padding: 10px 20px;
+      padding-bottom: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  background: #252525;
+  color: #ffffff;
+  padding-bottom: 25px;
+}
 .services-section .content-6 .row .grid_12 table tbody tr td {
     vertical-align: top;
     padding: 10px 20px;
     text-align: left;
+    border: 1px solid #fff;
 }
 
 .services-section .content-6 .row .grid_12 table tbody tr .rtecenter  {
-   text-align: center;
+   text-align: left;
 }
 
 
 .services-section .content-6 .row .grid_12 table tbody tr td p{
-   color: #2a68af;
+   color: #ffffff;;
 
 }
 
@@ -861,7 +889,6 @@ table{
     color: #615f5f;
     padding: 30px;
 }
-
 .services-section .grid_12 .ta__center .grid_4 i {
     padding: 15px;
 }
@@ -874,8 +901,50 @@ table{
     padding-top: 30px;
 }
 
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-o-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.book-flash {
+  -webkit-animation: blink 1s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 1s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 1s;
+    -o-animation-iteration-count: infinite;
+}
 /*======================= i {
-    
+
     }===========RESPONSIVE LAYOUTS===============================================*/
 
 @media only screen and (max-width: 1199px) {
@@ -902,7 +971,7 @@ table{
         font-size: 28px !important;
     }
 
-    .ih-item.circle, 
+    .ih-item.circle,
     .ih-item.circle .img {
         width: 220px !important;
         height: 220px !important;
@@ -911,7 +980,7 @@ table{
 }
 @media only screen and (max-width: 979px) {
 
-    .ih-item.circle, 
+    .ih-item.circle,
     .ih-item.circle .img {
         width: 172px !important;
         height: 172px !important;
@@ -944,11 +1013,11 @@ table{
         margin-left: 0;
         margin-top: 30px;
     }
-    
-     .map figure,  
-     .map figure iframe,  
+
+     .map figure,
+     .map figure iframe,
      #form input,
-     #form textarea,  
+     #form textarea,
      #form .success {
         width: 100% !important;
         float: none !important;
@@ -976,7 +1045,7 @@ table{
     .address1 dd span  {
         min-width: 0;
     }
-    
+
 
     .banner {
         width: 370px;
@@ -1011,16 +1080,16 @@ table{
 }
 
 @media only screen and (max-width: 767px) {
-  
-    .circle {
-        margin-bottom: 30px;
-    }
 
     .circle {
         margin-bottom: 30px;
     }
 
-    .ih-item.circle, 
+    .circle {
+        margin-bottom: 30px;
+    }
+
+    .ih-item.circle,
     .ih-item.circle .img {
         width: 420px !important;
         height: 420px !important;
@@ -1064,7 +1133,7 @@ table{
 
     .circle .c_caption .title {
         font-size: 36px;
-     } 
+     }
 
     .banner {
         float: none !important;
@@ -1129,8 +1198,8 @@ table{
 
 
 @media only screen and (max-width: 479px) {
-    
-    .ih-item.circle, 
+
+    .ih-item.circle,
     .ih-item.circle .img {
         width: 300px !important;
         height: 300px !important;
@@ -1144,7 +1213,7 @@ table{
 
     .ih-item.circle.effect2 .info p {
         font-size: 18px !important;
-    }    
+    }
 th,
 td {
   padding: 12px 15px;
@@ -1156,5 +1225,3 @@ td:first-child {
 th:last-child,
 td:last-child {
   padding-right: 0; }
-  
-
