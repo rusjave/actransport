@@ -901,6 +901,29 @@ table{
     padding-top: 30px;
 }
 
+.services-section .content-6 .currency-converter {
+    width:160px;
+    height:180px;
+    border:1px solid #00FF00;
+    background-color:#F0F0F0;
+    float:right;
+}
+
+.services-section .content-6 .currency-content {
+    background-color:#00FF00;
+    height:18px;
+    text-align:center;
+    width:156px;
+    margin:2px 0px 0px 2px;
+}
+
+.services-section .content-6 .currency-converter .currency-content a{
+    color:#FFFFFF;
+    font-size:14px;
+    font-weight:Bold;
+    font-family:arial;
+    text-decoration:none;
+}
 @-webkit-keyframes blink {
     0% {
         opacity: 1;
