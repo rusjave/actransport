@@ -760,9 +760,9 @@ header h1 a img {
 }
 
 .socials .fa {
-    font-size: 36px;
+    font-size: 18px;
     float: left;
-    line-height: 38px;
+    line-height: 27px;
 }
 
 .socials .fa.fa-twitter {
@@ -806,12 +806,28 @@ header h1 a img {
     padding: 45px;
 }
 
+.home-section .content .content-2 .row .grid_12 .ta__center .grid_3 .fast-safe{
+    text-align: justify;
+}
+
 .home-section .content .content-2 .row .grid_12 .ta__center .grid_3 p{
     padding: 15px;
 }
 
+.home-section .content .content-2 .row .grid_12 .ta__center .grid_3 img{
+    border:0;
+}
+
+.home-section .content .content-3 .row .grid_4 img{
+    border:0;
+}
+
+.home-section .content .content-3 .row .grid_12 .ta__center .grid_4 .fa{
+    color:#FFFFFF;
+}
 .home-section .grid_12 .ta__center .grid_4 i {
     padding: 15px;
+    color: #000000;
 }
 
 .about-section .grid_12 .ta__center .grid_4 i {
