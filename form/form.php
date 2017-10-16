@@ -68,9 +68,9 @@ function phpfmg_form( $sErr = false ){
 </li>
 
 <li class='field_block' id='field_4_div'><div class='col_label'>
-	<label class='form_field'>Mobile Phone</label> <label class='form_required' >&nbsp;</label> </div>
+	<label class='form_field'>Local Mobile Phone</label> <label class='form_required' >&nbsp;</label> </div>
 	<div class='col_field'>
-	<input type="text" name="field_4"  id="field_4" value="<?php  phpfmg_hsc("field_4", ""); ?>" class='text_box'>
+	<input type="text" name="field_4"  id="field_4" value="<?php  phpfmg_hsc("field_4", ""); ?>" class='text_box' placeholder="ex. +63161002030">
 	<div id='field_4_tip' class='instruction'></div>
 	</div>
 </li>
