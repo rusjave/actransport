@@ -842,6 +842,31 @@ header h1 a img {
       animation-play-state: running;
 }
 
+.services-section .content .content-4 .pdf {
+    text-align: center;
+} 
+
+.book-now .content-2 .social{
+    float: right;
+}
+
+.services-section .content-2 .services{
+    float: left;
+}
+
+.services-section .content-2 .services p{
+    font-size: 50px;
+    line-height: 60px;
+    padding-top: 71px;
+    margin-bottom: 32px;
+}
+
+.services-section .content .content-3 p{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+} 
+
 @keyframes flash {
     from {color: red;}
     to {color: black;}
@@ -1234,6 +1259,7 @@ table{
         clear: both;
     }
 }
+
 
 
 @media only screen and (max-width: 479px) {
